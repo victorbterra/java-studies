@@ -11,10 +11,13 @@ public class Exercicio01 {
         Scanner sc = new Scanner(System.in);
         System.out.println("Digite um número:");
         int number = sc.nextInt();
-        if(number >= 0) {
+        if(number > 0) {
             System.out.println("O número é positivo");
+        }
+        else if(number < 0){
+            System.out.println("O número é negativo");
         } else {
-            System.out.println("O Número é negativo");
+            System.out.println("O Número é zero !");
         }
 
     }
